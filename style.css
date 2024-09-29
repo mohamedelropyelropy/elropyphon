@@ -1,0 +1,79 @@
+body{
+    background-color:burlywood;
+}
+.logo{
+    width: 90px;
+    height: 60px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 90px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:blue;
+    font-size: 16px;
+}
+.order1,.order2,.order3,.order4,.order5,.order6,.order7,.order8,.order9,.order10{
+    width: 97%;
+    height: 200px;
+    display:flex;
+    text-align:start;
+    padding: 10px;
+     background-color:red;
+     margin: 20px;
+     color: aliceblue;
+
+}
+.order1>p,.order2>p,.order3>p,.order4>p,.order5>p,.order6>p,.order7>p,.order8>p{
+    width: 500px;
+    height: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+span{
+    color: rgb(56, 1, 1);
+
+}
+p{
+    margin-left: 10px;
+}
+th{
+    padding: 7px 10px 10px 10px;
+    font-size: 90%;
+    border-bottom: 2px solid whitesmoke;
+    border-top: 1px solid rgb(147, 144, 144);
+    text-align: left;
+
+}
+.col1,.col2{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+table{
+    margin: auto;
+}
+tr{
+    background-color: aliceblue ;
+}
+tr.odd{
+    background-color:rgb(184, 184, 184);
+}
+tr:hover{
+    background-color: rgb(90, 247, 247);
+}
+input{
+    width: 30%;
+    height: 40px;
+    background-color: rgb(4, 4, 116);
+    color: aliceblue;
+    font-size: large;
+    border-radius: 20px;
+    margin-left: 525px;
+    margin-top: 10px;
+}
+input:hover{
+    background: red;
+}
